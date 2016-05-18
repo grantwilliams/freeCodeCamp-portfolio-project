@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css?family=Abel);
+
+html, body {
+    height: 100%;
+    background-color: #E63946;
+}
+
+body {
+    color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Abel, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+    font-family: Abel, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+.container-fluid {
+    margin: 0;
+}
+
+#about-section {
+    background-color: #A8DADC;
+}
+
+#about-section img {
+    display: block;
+    margin: 0 auto;
+}
+
+#portfolio-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #457B9D;
+}
+
+#portfolio-section img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.portfolio-img {
+    border: solid 2px black;
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+}
+
+#contact-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #A8DADC;
+}
+
+#footer-section {
+    background-color: #1D3557;
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+    #about-text {
+        margin-top: 170px;
+    }
+    #about-section {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    input, textarea{
+        margin-top: 5px;
+        width: 30ch;
+    }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    #about-text {
+        margin-top: 120px;
+    }
+    #about-section {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    input, textarea{
+        margin-top: 5px;
+        width: 30ch;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    #about-text {
+        margin-top: 40px;
+    }
+    #about-section {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    input, textarea{
+        margin-top: 5px;
+        width: 30ch;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    #about-text {
+        margin-top: 20px;
+    }
+    #about-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    input, textarea{
+        margin-top: 5px;
+        width: 30ch;
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    input, textarea, button.submit{
+        display: block;
+        margin: 0 auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 35ch;
+    }
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.code-icon-size {
+    font-size: 30px;
+}
