@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>freeCodeCamp - Protfolio Project</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/my-scripts.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/my-styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Grant Williams</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about-section">About</a></li>
+                    <li><a href="#portfolio-section">Portfolio</a></li>
+                    <li><a href="#contact-section">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container" id="about-section">
+        <div class="row">
+            <div class="col-sm-7 col-md-7">
+                <p id="about-text">The name is Grant Williams and I am learning Full Stack Web development with
+                    Free Code Camp, and this is my Portfolio Project. I have also completed MITx's - 6.00.1x
+                    Introduction to Computer Science and Programming Using Python</p>
+                <p class="text-center code-icon-size">---------------------<i class="fa fa-code"></i></p>
+            </div>
+            <div class="col-sm-5 col-md-5">
+                <img class="img-responsive img-circle" src="https://avatars.githubusercontent.com/u/16342797?v=3">
+            </div>
+        </div>
+    </div>
+    <div class="container" id="portfolio-section">
+        <h1 class="text-center">PORTFOLIO</h1>
+        <p class="text-center code-icon-size">---------------------<i class="fa fa-code"></i></p>
+        <div class="row">
+            <div class="col-sm-6 portfolio-img">
+                <figure>
+                    <a href="http://imgur.com/V9S3Vgh" target="_blank"><img class="img-responsive" src="http://i.imgur.com/V9S3Vgh.png" title="source: imgur.com" /></a>
+                    <figcaption class="text-center">Facebook</figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-6 portfolio-img">
+                <figure>
+                    <a href="http://imgur.com/1Zrt22X" target="_blank"><img class="img-responsive" src="http://i.imgur.com/1Zrt22X.png" title="source: imgur.com" /></a>
+                    <figcaption class="text-center">Bitbucket</figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 portfolio-img">
+                <figure>
+                    <a href="http://imgur.com/Pd7gyxw" target="_blank"><img class="img-responsive" src="http://i.imgur.com/Pd7gyxw.png" title="source: imgur.com" /></a>
+                    <figcaption class="text-center">dict.cc</figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-6 portfolio-img">
+                <figure>
+                    <a href="http://imgur.com/idmgDXB" target="_blank"><img class="img-responsive" src="http://i.imgur.com/idmgDXB.png" title="source: imgur.com" /></a>
+                    <figcaption class="text-center">eBay Kleinanzeigen</figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 portfolio-img">
+                <figure>
+                    <a href="http://imgur.com/mXOCnqG" target="_blank"><img class="img-responsive" src="http://i.imgur.com/mXOCnqG.png" title="source: imgur.com" /></a>
+                    <figcaption class="text-center">edX</figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-6 portfolio-img">
+                <figure>
+                    <a href="http://imgur.com/83DvXz1" target="_blank"><img class="img-responsive" src="http://i.imgur.com/83DvXz1.png" title="source: imgur.com" /></a>
+                    <figcaption class="text-center">reddit</figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 portfolio-img">
+                <figure>
+                    <a href="http://imgur.com/YEZ2qqG" target="_blank"><img class="img-responsive" src="http://i.imgur.com/YEZ2qqG.png" title="source: imgur.com" /></a>
+                    <figcaption class="text-center">The Dare Hub</figcaption>
+                </figure>
+            </div>
+            <div class="col-sm-6 portfolio-img">
+                <figure>
+                    <a href="http://imgur.com/edYHitr" target="_blank"><img class="img-responsive" src="http://i.imgur.com/edYHitr.png" title="source: imgur.com" /></a>
+                    <figcaption class="text-center">The Pirate Bay</figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="contact-section">
+        <h1 class="text-center">CONTACT</h1>
+        <p class="text-center code-icon-size">----------<i class="fa fa-code"></i>----------</p>
+        <div class="row">
+            <div class="col-md-7 col-sm-7">
+                <form id="contact-form">
+                    <div class="row">
+                        <div class="col-md-9 col-md-offset-3">
+                            <input id="name" type="text" required="required" placeholder="Name">
+                        </div>
+                        <div class="col-md-9 col-md-offset-3">
+                            <input id="email" type="text" required="required" placeholder="Email">
+                        </div>
+                        <div class="col-md-9 col-md-offset-3">
+                            <input id="phone-number" type="text" required="required" placeholder="Phone Number">
+                        </div>
+                        <div class="col-md-9 col-md-offset-3">
+                            <textarea id="message" required="required" rows="8" placeholder="Message"></textarea>
+                        </div>
+                        <div class="col-md-9 col-md-offset-3">
+                            <button type="submit" class="btn btn-primary submit">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-5 col-sm-5">
+                <p>Want to get in touch with me? Be it to request more info about myself or my experience, to ask for
+                    my resume, tips on how to solve your sudoku, random questions about the universe and the meaning
+                    of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me
+                    a line anytime.</p>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid" id="footer-section">
+        <div class="row">
+            <div class="col-sm-6">
+                <p class="text-center">Made by <a href="https://www.freecodecamp.com/mummers-farce" target="_blank">Grant Williams</a></p>
+            </div>
+            <div class="col-sm-6">
+                <p class="text-center">
+                    <a href="https://de.linkedin.com/in/grant-williams-25663a91" target="_blank"><button class="btn">linked<i class="fa fa-fw fa-linkedin"></i></button></a>
+                    <a href="https://www.freecodecamp.com/mummers-farce" target="_blank"><button class="btn">freeCodeCamp<i class="fa fa-fw fa-fire"></i></button></a>
+                    <a href="https://github.com/mummers-farce" target="_blank"><button class="btn">GitHub<i class="fa fa-fw fa-github"></i></button></a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
